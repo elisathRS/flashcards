@@ -1,0 +1,49 @@
+.card{
+
+    /*Sizing*/
+    height: 100%;
+    width: 100%;
+
+    transform-style: preserve-3d;
+
+    /*Content Alignment */
+    position:relative;
+
+    /*Styling*/
+    border: 3px solid white;
+    box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.8);
+
+    transition: transform 1000ms;
+    
+}
+
+.card-front, 
+.card-back{
+    /*Sizing*/
+    height: 100%;
+    width:100%;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  
+    /* Alignment */
+    position: absolute;
+
+    /*Content Alignmet*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    color:black;
+
+}
+
+.card-front{
+    background-color: #f6c29d;
+}
+
+.card-back{
+    background-color: #f6c29d;    
+    transform: rotatex(180deg);
+
+}
