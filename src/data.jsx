@@ -1,4 +1,10 @@
-export const flashCardsList = [{
+export const flashCardsList = [
+  {  
+    question: 'Start',
+    answer: 'Start'
+      
+  },
+  {  
     question: 'Who was the first President of the United States?',
     answer: 'George Washington'
       
@@ -30,4 +36,8 @@ export const flashCardsList = [{
   }, {
     question: 'Which historical document, signed in 1215, limited the powers of the English monarchy and is often seen as a cornerstone of modern constitutional law?',
     answer: ' The Magna Carta.'
+  },
+  {
+    question: 'Finish',
+    answer: 'Finish'
   }];

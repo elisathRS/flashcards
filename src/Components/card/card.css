@@ -17,6 +17,15 @@
     
 }
 
+button{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+text {
+  font-weight: bold;
+}
+
 .card-front, 
 .card-back{
     /*Sizing*/
@@ -47,3 +56,15 @@
     transform: rotatex(180deg);
 
 }
+
+.green-background {
+    background-color: #9df6a7;
+  }
+
+  .red-background {
+    background-color: #fb7777;
+  }
+
+  .white-background {
+    background-color: white;
+  }
